@@ -1,1 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.AddFlight">
+<children>
+    <Label alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="44.0" prefWidth="800.0" text="Add Flight Details" textAlignment="CENTER" textFill="#c604ec" textOverrun="CENTER_ELLIPSIS">
+        <font>
+            <Font name="Agency FB Bold" size="39.0" />
+        </font>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin>
+    </Label>
+    <Label textAlignment="CENTER" />
+    <HBox prefHeight="371.0" prefWidth="800.0">
+        <children>
+            <VBox prefHeight="197.0" prefWidth="196.0">
+                <children>
+                    <Label prefHeight="42.0" prefWidth="196.0" text="Flight Id:" textFill="#4964a9">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                    </Label>
+                    <Label prefHeight="44.0" prefWidth="196.0" text="Flight Name:" textFill="#223481">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                    </Label>
+                    <Label prefHeight="47.0" prefWidth="196.0" text="Source:" textFill="#144ec4">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                    </Label>
+                    <Label prefHeight="41.0" prefWidth="196.0" text="Destination:" textFill="#12205b">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                    </Label>
+                  <Label prefHeight="42.0" prefWidth="175.0" text="Capacity:" textFill="#2b3ec9">
+                     <font>
+                        <Font name="Agency FB Bold" size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                </children>
+            </VBox>
+            <VBox prefHeight="180.0" prefWidth="211.0">
+                <children>
+                    <TextField fx:id="txtid" prefHeight="51.0" prefWidth="211.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font></TextField>
+                    <TextField fx:id="txtname" prefHeight="58.0" prefWidth="211.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font></TextField>
+                    <TextField fx:id="txtsource" prefHeight="55.0" prefWidth="211.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font></TextField>
+                    <TextField fx:id="txtdest" prefHeight="54.0" prefWidth="211.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font></TextField>
+                  <TextField fx:id="txtcapacity" prefHeight="48.0" prefWidth="194.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font>
+                  </TextField>
+                </children>
+            </VBox>
+            <VBox prefHeight="393.0" prefWidth="42.0" />
+            <VBox prefHeight="386.0" prefWidth="218.0">
+                <children>
+                    <Label prefHeight="40.0" prefWidth="179.0" text="Date" textAlignment="CENTER" textFill="#205196">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                    </Label>
+                    <Label prefHeight="54.0" prefWidth="167.0" text="Arrive Time:" textFill="#561ca6">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                    </Label>
+                    <Label prefHeight="47.0" prefWidth="188.0" text="Dep. Time:" textFill="#513ef7">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                    </Label>
+                    <Label prefHeight="39.0" prefWidth="219.0" text="Flight Price:" textFill="#3131a1">
+                        <font>
+                            <Font name="Agency FB Bold" size="30.0" />
+                        </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                    </Label>
+                </children>
+            </VBox>
+            <VBox prefHeight="388.0" prefWidth="191.0">
+                <children>
+                    <TextField fx:id="txtdate" prefHeight="43.0" prefWidth="205.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font></TextField>
+                    <TextField fx:id="txtarr" prefHeight="47.0" prefWidth="205.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font></TextField>
+                    <TextField fx:id="txtdeparture" prefHeight="42.0" prefWidth="205.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font></TextField>
+                  <TextField fx:id="txtprice" prefHeight="43.0" prefWidth="205.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Agency FB" size="15.0" />
+                     </font>
+                  </TextField>
+                </children>
+            </VBox>
+        </children>
+    </HBox>
+    <FlowPane alignment="TOP_CENTER" prefHeight="38.0" prefWidth="800.0">
+        <children>
+            <Label fx:id="label" alignment="BOTTOM_CENTER" prefHeight="36.0" prefWidth="800.0" textAlignment="CENTER" textFill="#ec1d12">
+               <font>
+                  <Font name="Agency FB Bold" size="35.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#btadd" prefHeight="31.0" prefWidth="167.0" text="Add" textFill="#cc07a8">
+                <font>
+                    <Font name="Agency FB Bold" size="30.0" />
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#bthome" prefHeight="58.0" prefWidth="167.0" text="Home" textFill="#f21b97">
+                <font>
+                    <Font name="Agency FB Bold" size="30.0" />
+                </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <FlowPane.margin>
+                  <Insets bottom="10.0" left="100.0" right="20.0" top="10.0" />
+               </FlowPane.margin>
+            </Button>
+        </children>
+    </FlowPane>
+</children>
+</VBox>

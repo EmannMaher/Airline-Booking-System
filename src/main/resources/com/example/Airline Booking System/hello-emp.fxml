@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #e6f7f6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.HelloEmp">
+   <children>
+      <Button layoutX="46.0" layoutY="293.0" mnemonicParsing="false" onAction="#AddEmp" prefHeight="170.0" prefWidth="343.0" text="Add New Employee" textAlignment="CENTER" textFill="#892f40">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="400.0" layoutY="102.0" mnemonicParsing="false" onAction="#AddAirLine" prefHeight="164.0" prefWidth="343.0" text="Add New Airline" textFill="#892f40">
+         <font>
+            <Font name="Agency FB Bold" size="50.0" />
+         </font>
+      </Button>
+      <Button layoutX="400.0" layoutY="293.0" mnemonicParsing="false" onAction="#back" prefHeight="170.0" prefWidth="343.0" text="Back to Login Page" textFill="#892f40">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="46.0" layoutY="102.0" mnemonicParsing="false" onAction="#DeleteAirline" prefHeight="164.0" prefWidth="343.0" text="Delete Airline" textFill="#892f40">
+         <font>
+            <Font name="Agency FB Bold" size="50.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
