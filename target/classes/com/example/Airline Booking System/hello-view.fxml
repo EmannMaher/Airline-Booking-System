@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f0f2d8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.HelloController">
+   <children>
+      <Button layoutX="602.0" layoutY="396.0" mnemonicParsing="false" onAction="#signup" prefHeight="78.0" prefWidth="156.0" text="Signup" textFill="#e12674">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtusername" layoutX="245.0" layoutY="127.0">
+         <font>
+            <Font name="Agency FB" size="40.0" />
+         </font>
+      </TextField>
+      <Label layoutX="245.0" layoutY="77.0" text="Username" textFill="#1ad6c9">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="214.0" text="Password" textFill="#309c94">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="321.0" layoutY="396.0" mnemonicParsing="false" onAction="#login" prefHeight="78.0" prefWidth="156.0" text="Login" textFill="#d622b3">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" layoutX="245.0" layoutY="485.0" textFill="#ef0c0c">
+         <font>
+            <Font name="Agency FB" size="30.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtpassword" layoutX="244.0" layoutY="264.0" prefHeight="77.0" prefWidth="310.0">
+         <font>
+            <Font name="Agency FB" size="40.0" />
+         </font></PasswordField>
+      <Button layoutX="41.0" layoutY="396.0" mnemonicParsing="false" onAction="#back" prefHeight="78.0" prefWidth="156.0" text="Back" textFill="#9822d4">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
